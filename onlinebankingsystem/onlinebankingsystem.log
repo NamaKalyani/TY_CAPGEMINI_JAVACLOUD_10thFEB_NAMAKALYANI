@@ -1,0 +1,17 @@
+[2020-03-18 13:52:32,937][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter your choice: 
+ 1.Admin Login 
+ 2.User Login
+[2020-03-18 13:52:55,241][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter the Username
+[2020-03-18 13:54:10,212][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter the Password
+[2020-03-18 13:54:21,480][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Invalid Credentials
+[2020-03-18 14:10:33,441][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter your choice: 
+ 1.Admin Login 
+ 2.User Login
+[2020-03-18 14:10:42,994][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter the Username
+[2020-03-18 14:10:47,254][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter the Password
+[2020-03-18 14:11:29,321][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter your choice: 
+ 1.Admin Login 
+ 2.User Login
+[2020-03-18 14:11:32,577][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter the Username
+[2020-03-18 14:11:37,896][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter the Password
+[2020-03-18 14:11:48,767][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Invalid Credentials
