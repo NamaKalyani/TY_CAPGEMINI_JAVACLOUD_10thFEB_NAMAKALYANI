@@ -1,12 +1,10 @@
 package com.capgemini.onlinebankingsytem.bean;
 
-import java.io.Serializable;
-
-public class ATMSimulator implements Serializable {
+public class ATMSimulator  {
 	
 	private double amount;
 	private String type;
-	private int pin;
+	private Integer pin;
 	
 	public double getamount() {
 		return amount;

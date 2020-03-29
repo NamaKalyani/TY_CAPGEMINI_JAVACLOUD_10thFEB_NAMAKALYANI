@@ -1,17 +1,15 @@
 package com.capgemini.onlinebankingsytem.bean;
 
-import java.io.Serializable;
-
-public class AccountHolderLogin implements Serializable {
+public class AccountHolderLogin  {
 	
-	private String username;
+	private String userName;
 	private String password;
 	
-	public String getusername() {
-		return username;
+	public String getUserName() {
+		return userName;
 	}
-	public void setusername(String username) {
-		this.username = username;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	
 	public String getpassword() {
@@ -20,5 +18,10 @@ public class AccountHolderLogin implements Serializable {
 	public void setpassword(String password) {
 		this.password = password;
 	}
+	@Override
+	public String toString() {
+		return "User1[userName=" + userName + ",password= " + password +")]";
+	}
+	
 
 }

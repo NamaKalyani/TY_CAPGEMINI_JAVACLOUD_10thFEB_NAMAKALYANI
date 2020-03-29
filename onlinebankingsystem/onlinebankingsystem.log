@@ -15,3 +15,25 @@
 [2020-03-18 14:11:32,577][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter the Username
 [2020-03-18 14:11:37,896][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter the Password
 [2020-03-18 14:11:48,767][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Invalid Credentials
+[2020-03-28 15:27:01,121][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter your choice: 
+ 1.Admin Login 
+ 2.User Login
+[2020-03-28 15:27:23,080][main] INFO  com.capgemini.onlinebankingsytem.controller.LoginController  - Enter the Username
+[2020-03-29 14:14:46,681][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Press 1 for BakAdmin Login Page
+[2020-03-29 14:14:46,703][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Press 2 for AccountHolder Login Page
+[2020-03-29 14:15:32,474][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - press 1 to Bank admin login
+[2020-03-29 14:15:32,474][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - press 2 to exit
+[2020-03-29 14:16:14,997][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Enter the UserName
+[2020-03-29 14:16:23,328][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Enter the Password
+[2020-03-29 14:27:53,700][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Press 1 for BakAdmin Login Page
+[2020-03-29 14:27:53,703][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Press 2 for AccountHolder Login Page
+[2020-03-29 14:28:16,746][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - press 1 to Bank admin login
+[2020-03-29 14:28:16,746][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - press 2 to exit
+[2020-03-29 14:28:19,669][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Enter the UserName
+[2020-03-29 14:28:31,385][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Enter the Password
+[2020-03-29 17:10:19,448][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Press 1 for BakAdmin Login Page
+[2020-03-29 17:10:19,449][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Press 2 for AccountHolder Login Page
+[2020-03-29 17:10:36,225][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - press 1 to Bank admin login
+[2020-03-29 17:10:36,225][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - press 2 to exit
+[2020-03-29 17:10:38,619][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Enter the UserName
+[2020-03-29 17:10:46,969][main] INFO  com.capgemini.onlinebankingsytem.controller.OnlineBankingSystemController  - Enter the Password

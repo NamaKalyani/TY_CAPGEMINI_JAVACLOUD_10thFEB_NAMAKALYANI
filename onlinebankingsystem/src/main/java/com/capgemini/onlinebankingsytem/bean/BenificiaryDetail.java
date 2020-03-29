@@ -1,48 +1,46 @@
 package com.capgemini.onlinebankingsytem.bean;
 
-import java.io.Serializable;
-
-public class BenificiaryDetail implements Serializable {
+public class BenificiaryDetail {
 	
-	private String firstname;
-	private String lastname;
-	private long accountnumber;
-	private String emailid;
-	private long phonenumber;
+	private String firstName;
+	private String lastName;
+	private long accountNumber;
+	private String emailId;
+	private String phoneNumber;
 	
-	public String getfirstname() {
-		return firstname;
+	public String getfirstName() {
+		return firstName;
 	}
-	public void setfirstname(String firstname) {
-		this.firstname = firstname;
+	public void setfirstname(String firstName) {
+		this.firstName = firstName;
 	}
 	
 	public String getlastname() {
-		return lastname;
+		return lastName;
 	}
-	public void setlastname(String lastname) {
-		this.lastname = lastname;
+	public void setlastName(String lastName) {
+		this.lastName = lastName;
 	}
 	
 	public long getaccountnumber() {
-		return accountnumber;
+		return accountNumber;
 	}
 	public void setaccountnumber(long accountnumber) {
-		this.accountnumber = accountnumber;
+		this.accountNumber = accountNumber;
 	}
 	
 	public String getemailid() {
-		return emailid;
+		return emailId;
 	}
 	public void setemailid(String emailid) {
-		this.emailid = emailid;
+		this.emailId = emailId;
 	}
 	
-	public long getphonenumber() {
-		return phonenumber;
+	public String getphonenumber() {
+		return phoneNumber;
 	}
-	public void setphonenumber(long phonenumber) {
-		this.phonenumber = phonenumber;
+	public void setphonenumber(String phonenumber) {
+		this.phoneNumber = phoneNumber;
 	}
 
 

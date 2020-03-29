@@ -1,36 +1,36 @@
 package com.capgemini.onlinebankingsytem.bean;
 
-import java.io.Serializable;
-
-public class AccountHolder implements Serializable {
+public class AccountHolder  {
 	
-	private String firstname;
-	private String lastname;
+	private String firstName;
+	private String lastName;
 	private String gender;
-	private String dateofbirth;
-	private  long adharnumber;
-	private String emailid;
-	private long phonenumber;
+	private String dateOfBirth;
+	private  long adharNumber;
+	private String emailId;
+	private String phoneNumber;
 	private String address;
-	private String bankbranch;
-	private long accountnumber;
-	private double openingbalance;
+	private String bankBranch;
+	private long accountNumber;
+	private double openingBalance;
 	private int pin;
-	private String username;
+	private String userName;
 	private String password;
+	private int custId;
+	private int transPin;
 	
-	public String getfirstname() {
-		return firstname;
+	public String getFirstName() {
+		return firstName;
 	}
-	public void setfirstname(String firstname) {
-		this.firstname = firstname;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 	
-	public String getlastname() {
-		return lastname;
+	public String getLastName() {
+		return lastName;
 	}
-	public void setlastname(String lastname) {
-		this.lastname = lastname;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 	
 	public String getgender() {
@@ -40,32 +40,32 @@ public class AccountHolder implements Serializable {
 		this.gender = gender;
 	}
 	
-	public String getdateofbirth() {
-		return dateofbirth;
+	public String getDateOfBirth() {
+		return dateOfBirth;
 	}
-	public void setdateofbirth(String dateofbirth) {
-		this.dateofbirth = dateofbirth;
-	}
-	
-	public long getadharnumber() {
-		return adharnumber;
-	}
-	public void setadharnumber(long adharnumber) {
-		this.adharnumber = adharnumber;
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
 	}
 	
-	public String getemilid() {
-		return emailid;
+	public long getAdharNumber() {
+		return adharNumber;
 	}
-	public void setemailid(String emailid) {
-		this.emailid = emailid;
+	public void setAdharNumber(long adharNumber) {
+		this.adharNumber = adharNumber;
 	}
 	
-	public long getphonenumber() {
-		return phonenumber;
+	public String getEmilId() {
+		return emailId;
 	}
-	public void setphonenumber(long phonenumber) {
-		this.phonenumber = phonenumber;
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+	
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
 	}
 	
 	public String getaddress() {
@@ -75,25 +75,25 @@ public class AccountHolder implements Serializable {
 		this.address = address;
 	}
 	
-	public String getbankbranch() {
-		return bankbranch;
+	public String getBankBranch() {
+		return bankBranch;
 	}
-	public void setbankbranch(String bankbranch) {
-		this.bankbranch = bankbranch;
-	}
-	
-	public long getaccountnumber() {
-		return accountnumber;
-	}
-	public void setaccountnumber(long accountnumber) {
-		this.accountnumber = accountnumber;
+	public void setBankBranch(String bankBranch) {
+		this.bankBranch = bankBranch;
 	}
 	
-	public double getopeningbalance() {
-		return openingbalance;
+	public long getAccountNumber() {
+		return accountNumber;
 	}
-	public void setopeningbalance(double openingbalanace) {
-		this.openingbalance = openingbalance;
+	public void setAccountNumber(long accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	
+	public double getOpeningBalance() {
+		return openingBalance;
+	}
+	public void setOpeningBalance(double openingBalanace) {
+		this.openingBalance = openingBalance;
 	}
 	
 	public int getpin() {
@@ -103,11 +103,11 @@ public class AccountHolder implements Serializable {
 		this.pin = pin;
 	}
 	
-	public String getusername() {
-		return username;
+	public String getUserName() {
+		return userName;
 	}
-	public void setusername(String username) {
-		this.username = username;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	
 	public String getpassword() {
@@ -116,6 +116,30 @@ public class AccountHolder implements Serializable {
 	public void setpassword(String password) {
 		this.password = password;
 	}
+	public int getCustId() {
+		return custId;
+	}
+	public void setCustId(int custId) {
+		this.custId = custId;
+	}
+	public int getTransPin() {
+		return transPin;
+	}
+
+	public void setTransPin(int transPin) {
+		this.transPin = transPin;
+	}
+	@Override
+	public String toString() {
+		return "Customer [firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender + ", dateofbirth="
+				+ dateOfBirth + ", adharNumber=" + adharNumber + ", emailId=" + emailId + ", phoneNumber=" + phoneNumber + ", address="
+				+ address + ", accountNumber=" + accountNumber + ", openingBalance=" + openingBalance + ", pin=" + pin
+				+ ", userName=" + userName + ", password=" + password + ", bankBranch=" + bankBranch + ", custId=" + custId
+				+ "]";
+	}
+	
+	
+	
 
 
 }

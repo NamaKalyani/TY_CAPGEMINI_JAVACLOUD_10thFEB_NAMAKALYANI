@@ -1,8 +1,6 @@
 package com.capgemini.onlinebankingsytem.bean;
 
-import java.io.Serializable;
-
-public class BankAdmin implements Serializable {
+public class BankAdmin  {
 	
 	private String userName;
 	private String password;
